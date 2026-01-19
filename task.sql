@@ -1,4 +1,4 @@
-USE ShopDB; 
+DROP DATABASE IF EXISTS ShopDB;
 
 DELIMITER $$
 
@@ -13,5 +13,3 @@ BEGIN
 END$$
 
 DELIMITER ;
-
--- Create your stored procedure here
